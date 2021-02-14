@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pesan"
+    android:padding="16dp"
+    android:background="@drawable/bg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Detail Barang"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:text="Alamat : "
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#000000"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp">
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/gamis"/>
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp"
+            android:text="Rok Plisket"
+            android:textStyle="bold"
+            android:gravity="center" />
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp"
+            android:text="Navy"
+            android:textStyle="bold"
+            android:gravity="center" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="320dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:text="Total : "
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textStyle="bold"
+            android:text="Rp. 70.000"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:gravity="right"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="JNE : "
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textStyle="bold"
+            android:text="Rp. 20.000"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:gravity="right"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Total Pembayaran : "
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textStyle="bold"
+            android:text="Rp. 90.000"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:gravity="right"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="600dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Pesan Sekarang"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/bg_btn"
+            android:onClick="pesan"/>
+    </LinearLayout>
+</FrameLayout>
